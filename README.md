@@ -7,17 +7,29 @@ Notably, non-character keys like arrow keys and enter do not work because I am a
 
 ### List of keybinds
 q : poweroff
+
 w : poweron
+
 h : left
+
 j : down
+
 k : up
+
 l : right
+
 space : select
+
 b : back
+
 u : volumedown
+
 i : volumeup
+
 m : volumemute
+
 e : home
+
 t : typetext  (if you want to exit the script press t and ctrl+c)
 
 ## Installation 
