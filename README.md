@@ -32,22 +32,23 @@ e : home
 
 t : typetext  (if you want to exit the script press t and ctrl+c)
 
+## Dependencies
+pycurl readchar
+
 ## Installation 
 you are free to install the libraries with your OS package manager or with pip using python virtial environments.
 
 Debian based distros:
-`# apt install`
+`# apt install <xyz>`
 
 Arch based distros:
-`# pacman -S`
+`# pacman -S python-pycurl python-readchar`
 
 Pip, my beloathed:
 `python -m venv /path/to/venvdir`
-`/path/to/venvdir/bin/pip install xyz`
+`/path/to/venvdir/bin/pip install pycurl readchar`
 and then run with:
 `/path/to/venvdir/bin/python rokuremote.py`
-
-I'll actually put in the deps later. My laptop is dying.
 
 
 
